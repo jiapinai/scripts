@@ -1,4 +1,4 @@
-FROM centos:7.4
+FROM centos:7
 COPY . /src
 RUN cd /src \
  && chmod +x centos_install_v2ray2.sh \
